@@ -1,23 +1,58 @@
 <!doctype html>
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <title>Vue</title>
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="core/style.css">
-  <link rel="stylesheet" href="app/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="core/css/app.css">
+    <link rel="stylesheet" href="app/css/app.css">
 </head>
+
 <body>
+    <nav class="navbar navbar-c">
+        <div class="nav-container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" 
+                        data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                        aria-expanded="false">
 
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="images/general/brand.png" alt="Logo" height="100%">
+                </a>
+            </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Home </a></li>
+                    <li><a href="#">About TEDx </a></li>
+                    <li><a href="#">About TEDxBVCOE </a></li>
+                    <li><a href="#">Speakers </a></li>
+                    <li><a href="#">Sponsors </a></li>
+                    <li><a href="#">Team </a></li>
+                    <li><a href="#">Register </a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
 
-  <!-- JS -->
-  <script src="/bower_components/jquery/dist/jquery.min.js"></script>
-  <script src="bower_components/vue/dist/vue.js"></script>
-  <script src="bower_components/vue-resource/dist/vue-resource.js"></script>
+    <section id="header">
+        <div class="container">
 
-  <script src="core/app.js"></script>
-  <script src="app/app.js"></script>
+        </div>
+    </section>
+    <!-- JS -->
+    <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="./bower_components/vue/dist/vue.js"></script>
+    <script src="./bower_components/vue-resource/dist/vue-resource.js"></script>
+    <script src="core/js/app.js"></script>
+    <script src="app/js/app.js"></script>
 </body>
+
 </html>
