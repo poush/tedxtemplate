@@ -1,0 +1,22 @@
+{
+  "name": "general",
+  "homepage": "ipiyush.com",
+  "authors": [
+    "Piyush Agrawal <me@ipiyush.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "vue": "^1.0.27",
+    "vue-resource": "^1.0.3"
+  }
+}
