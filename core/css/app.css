@@ -1,5 +1,20 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+@import 'https://fonts.googleapis.com/css?family=Abel';
+
+
+html,body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+section{
+	padding: 20px 0;
+}
+
+
+/* navbar*/
+
 .navbar-c{
-	position: absolute;
+	position: fixed;
 	z-index: 100;
 	top: 60px;
 	width: 100%;
@@ -37,23 +52,20 @@
 
 .nav li a {
 	color: #fff;
-	font-family: Raleway, sans-serif;
-	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
 	line-height: 50px;
-	text-transform: uppercase;
-	font-size:12px;
+	text-transform: lowercase;
+	font-size:13px;
 }
 
 .nav li a:hover, .nav li a:focus {
+	border-bottom: 2px solid #FB0006;
 	background: none;
 	color: #FB0006;
-	transition: all 0.4s;
+	transition: all 0.8s;
 }
 
-.shrink .nav li:hover, .shrink .nav li:focus {
-	/*background: #FB0006;*/
-	border-bottom: 4px solid #FB0006;
-}
 
 /*.shrink .nav li a:hover, .shrink .nav li a:focus {
 	color: #fff;
@@ -73,6 +85,89 @@
 	min-height: 600px;
 }
 
+<<<<<<< HEAD
+#header h1{
+	text-transform: uppercase;
+	font-size: 45px;
+}
 
+#header h1, #header h2 {
+	color:#fff;
+}
+
+.btn-default {
+	background: #FB0006;
+	color: #fff;
+	border:none;
+	border-radius: 2px;
+	font-weight: 100;
+}
+.btn-default:focus,
+.btn-default:hover,
+.btn-default:active.btn-default:focus,
+.btn-default:active.btn-default:hover{
+	 /*background: #e10005;*/
+	background: none;
+	color: #FB0006;
+	border: 1px solid #FB0006;
+	transition: all 0.4s;
+}
+
+.btn-book {
+
+}
+
+
+/*  Gallery */
+
+.gallery {
+	background: #F0EFF4;
+}
+
+.gallery h1 {
+	font-size: 35px;
+	text-transform: uppercase;
+=======
+/* home*/
+
+#home{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.home-para{
+    font-family: 'Abel', sans-serif;
+    font-size: 17px;
+}
+
+/* about TEDx*/
+
+#about{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: #f85032; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f85032 , #e73827); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #f85032 , #e73827); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
+
+.about-head{
+    font-size: 50px;
+    color: floralwhite;
+}
+
+.about-subhead{
+    padding-bottom: 50px;
+    color: floralwhite;
+
+}
+
+.about-para{
+    color: floralwhite;
+    line-height: 150%;
+    font-family: 'Abel', sans-serif;
+    font-size: 17px;
+>>>>>>> 8b383c99d5d28ef9cd9bbd8ac9c4371801935033
+}
 
 
