@@ -77,13 +77,9 @@ section{
 		padding: 0;
 		background: #000;
 	}
-
-	.in {
-		margin-top: -20px;
-	}
-
-	.navbar-collapse.collapse.in{
-		margin-top: -20px;
+	.navbar {
+		margin-bottom: 0px;
+		height: 100px;
 	}
 }
 
