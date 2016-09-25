@@ -16,7 +16,7 @@ section{
 .navbar-c{
 	position: fixed;
 	z-index: 100;
-	top: 60px;
+	top: 36px;
 	width: 100%;
 	height: 100px;
 	transition: all 0.3s;
@@ -56,7 +56,7 @@ section{
 	font-weight: normal;
 	line-height: 50px;
 	text-transform: lowercase;
-	font-size:13px;
+	font-size:14px;
 }
 
 .nav li a:hover, .nav li a:focus {
@@ -82,10 +82,10 @@ section{
 	background-repeat: no-repeat;
 	background-position: center;
 	padding: 240px 0 180px;
-	min-height: 600px;
+	min-height: 800px;
 }
 
-<<<<<<< HEAD
+
 #header h1{
 	text-transform: uppercase;
 	font-size: 45px;
@@ -127,10 +127,10 @@ section{
 .gallery h1 {
 	font-size: 35px;
 	text-transform: uppercase;
-=======
-/* home*/
 
-#home{
+}
+
+.home{
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -167,7 +167,6 @@ section{
     line-height: 150%;
     font-family: 'Abel', sans-serif;
     font-size: 17px;
->>>>>>> 8b383c99d5d28ef9cd9bbd8ac9c4371801935033
 }
 
 
