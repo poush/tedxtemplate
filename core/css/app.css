@@ -8,6 +8,7 @@ html,body {
 
 section{
 	padding: 20px 0;
+	padding-top:80px;
 }
 
 
@@ -19,7 +20,7 @@ section{
 	top: 36px;
 	width: 100%;
 	height: 100px;
-	transition: all 0.3s;
+	/*transition: all 0.3s;*/
 	border:0;
 }
 
@@ -63,16 +64,35 @@ section{
 	border-bottom: 2px solid #FB0006;
 	background: none;
 	color: #FB0006;
-	transition: all 0.8s;
+	transition: all 0.3s;
 }
 
+
+
+/* Navbar Mobile*/
+
+@media(max-width: 700px)
+{
+	.in ul{
+		padding: 0;
+		background: #000;
+	}
+
+	.in {
+		margin-top: -20px;
+	}
+
+	.navbar-collapse.collapse.in{
+		margin-top: -20px;
+	}
+}
 
 /*.shrink .nav li a:hover, .shrink .nav li a:focus {
 	color: #fff;
 } */
 
 .nav-container{
-	width: 95%;
+	width: 100%;
 	margin: auto auto;
 }
 
@@ -130,6 +150,11 @@ section{
 
 }
 
+.speakers-list{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
 .home{
     padding-top: 120px;
     padding-bottom: 120px;
@@ -169,4 +194,7 @@ section{
     font-size: 17px;
 }
 
-
+.section-heading {
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+}
