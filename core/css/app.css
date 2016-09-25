@@ -9,9 +9,18 @@ html,body {
 
 section{
 	padding: 20px 0;
-	padding-top:80px;
+	padding-top:100px;
 }
 
+section h1 {
+	font-size: 40px;
+}
+
+section h4.text-center {
+	font-style: italic;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
 
 /* navbar*/
 
@@ -134,11 +143,12 @@ section{
 .btn-default:hover,
 .btn-default:active.btn-default:focus,
 .btn-default:active.btn-default:hover{
-	 /*background: #e10005;*/
-	background: none;
-	color: #FB0006;
-	border: 1px solid #FB0006;
+	 background: #e10005;
+	/*background: none;*/
+	color: #fff;
+	/*border: 1px solid #FB0006;*/
 	transition: all 0.3s;
+	outline:none;
 }
 
 .btn-book {
@@ -164,7 +174,6 @@ section{
 }
 
 .home{
-    padding-top: 120px;
     padding-bottom: 120px;    
     background: #ECE9E6; 
     background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); 
@@ -180,7 +189,6 @@ section{
 /* about TEDx*/
 
 #about{
-    padding-top: 120px;
     padding-bottom: 120px;
     background: #f85032; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #f85032 , #e73827); /* Chrome 10-25, Safari 5.1-6 */
@@ -207,10 +215,10 @@ section{
 }
 
 
-.section-heading {
+/*.section-heading {
 	font-family: "Montserrat", sans-serif;
 	text-transform: uppercase;
-}
+}*/
 
 #tedxbvcoe{
     padding-top: 120px;
