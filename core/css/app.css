@@ -1,6 +1,3 @@
-@import 'https://fonts.googleapis.com/css?family=Raleway:100,400';
-/* navbar*/
-
 .navbar-c{
 	position: absolute;
 	z-index: 100;
@@ -8,6 +5,17 @@
 	width: 100%;
 	height: 100px;
 	transition: all 0.3s;
+	border:0;
+}
+
+.navbar-toggle{
+	padding: 0;
+	padding-top: 20px;
+	margin-right: 40px;
+}
+
+.icon-bar {
+	background-color: #fff;
 }
 
 .navbar-c .navbar-header, .navbar-c .navbar-brand{
@@ -19,6 +27,12 @@
 	top:0;
 	height: 80px;
 	background-color: #000;
+	border-radius:0;
+}
+
+.nav li{
+	margin-top:0;
+	height: 80px;
 }
 
 .nav li a {
@@ -36,8 +50,17 @@
 	transition: all 0.4s;
 }
 
+.shrink .nav li:hover, .shrink .nav li:focus {
+	/*background: #FB0006;*/
+	border-bottom: 4px solid #FB0006;
+}
+
+/*.shrink .nav li a:hover, .shrink .nav li a:focus {
+	color: #fff;
+} */
+
 .nav-container{
-	width: 80%;
+	width: 95%;
 	margin: auto auto;
 }
 
