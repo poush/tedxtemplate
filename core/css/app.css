@@ -1,4 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway:100,400';
+@import 'https://fonts.googleapis.com/css?family=Abel';
+@import 'https://fonts.googleapis.com/css?family=Vidaloka';
+
 /* navbar*/
 
 .navbar-c{
@@ -42,6 +45,45 @@
 	min-height: 800px;
 }
 
+/* home*/
 
+#home{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.home-para{
+    font-family: 'Abel', sans-serif;
+    font-size: 17px;
+}
+
+/* about TEDx*/
+
+#about{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: #f85032; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f85032 , #e73827); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #f85032 , #e73827); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
+
+.about-head{
+    font-size: 50px;
+    color: floralwhite;
+}
+
+.about-subhead{
+    padding-bottom: 50px;
+    color: floralwhite;
+
+}
+
+.about-para{
+    color: floralwhite;
+    line-height: 150%;
+    font-family: 'Abel', sans-serif;
+    font-size: 17px;
+}
 
 

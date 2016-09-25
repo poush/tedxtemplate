@@ -4,11 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vue</title>
+    <title>TEDx</title>
     <!-- CSS -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="core/css/app.css">
     <link rel="stylesheet" href="app/css/app.css">
+    <link href="bootstrap.css" rel="stylesheet" media="screen">
+
 </head>
 
 <body>
@@ -30,12 +32,12 @@
             </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Home </a></li>
-                    <li><a href="#">About TEDx </a></li>
-                    <li><a href="#">About TEDxBVCOE </a></li>
-                    <li><a href="#">Speakers </a></li>
-                    <li><a href="#">Sponsors </a></li>
-                    <li><a href="#">Team </a></li>
+                    <li><a href="#home">Home </a></li>
+                    <li><a href="#about">About TEDx </a></li>
+                    <li><a href="#tedxbvcoe">About TEDxBVCOE </a></li>
+                    <li><a href="#speakers">Speakers </a></li>
+                    <li><a href="#sponsors">Sponsors </a></li>
+                    <li><a href="#team">Team </a></li>
             </ul>
         </div>
         </div>
@@ -47,6 +49,61 @@
         </div>
     </section>
     
+    <!-- home Section -->
+    <section id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">What is TED?</h2>
+                    <h3 class="section-subheading text-muted home-subhead">An introduction.</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <h4 class="service-heading">An Idea</h4>
+                    <span class="glyphicon glyphicon-bell"></span>
+                    <p class="text-muted home-para">TED is a non-profit organization devoted to Ideas Worth Spreading. It started out in 1984 as a conference bringing together people from three worlds- Technology, Entertainment and Design. </p>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="service-heading">Success</h4>
+                    <span class="glyphicon glyphicon-thumbs-up"></span>
+                    <p class="text-muted home-para">Since then its scope has become ever broader. Along with two annual conferences - the TED Conference in Long Beach and Palm Springs each spring, and the TED Global Conference in Edinburgh UK each summer. </p>
+                </div>
+                <div class="col-md-4">
+                
+                    <h4 class="service-heading">An award winner</h4>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <p class="text-muted home-para">TED includes the award-winning TED Talks video site, the Open Translation Project and TED Conversations, the inspiring TED Fellows and TEDx programs, and the annual TED Prize.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Us section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading about-head">TEDx</h2>
+                    <h3 class="section-subheading text-muted about-subhead">An expansion of the basic idea.</h3>
+                    <p class="text-muted about-para">In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TEDTalks video and live speakers combine to spark deep discussion and connection in a small group. These local, self-organized events are branded TEDx, where x = independently organized TED event. The TED Conference provides general guidance for the TEDx program, but individual TEDx events are self-organized. (Subject to certain rules and regulations.)</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+    <!-- TEDxBVCOE -->
+    <section id="tedxbvcoe">
+     <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading bvcoe-head">TEDxBVCOE</h2>
+                    <h3 class="section-subheading text-muted bvcoe-subhead"></h3>
+                </div>
+         </div>
+    </div>
+    </section>
     <!-- JS -->
     <script src="./bower_components/jquery/dist/jquery.min.js"></script>
     <script src="./bower_components/vue/dist/vue.js"></script>
