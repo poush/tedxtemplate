@@ -1,5 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat';
 @import 'https://fonts.googleapis.com/css?family=Abel';
+@import 'https://fonts.googleapis.com/css?family=Damion';
 
 
 html,body {
@@ -16,7 +17,7 @@ section{
 .navbar-c{
 	position: fixed;
 	z-index: 100;
-	top: 36px;
+	top: 18px;
 	width: 100%;
 	height: 100px;
 	transition: all 0.3s;
@@ -95,12 +96,23 @@ section{
 	color:#fff;
 }
 
+.event-title{
+    width: 700px;
+    position: relative;
+    left: 350px;
+}
+
 .btn-default {
 	background: #FB0006;
 	color: #fff;
 	border:none;
 	border-radius: 2px;
-	font-weight: 100;
+    padding: 20px 35px 20px 35px;
+	font-weight: bolder;
+    font-size: 15px;
+    position: relative;
+    top: 70px;
+    left: 550px;
 }
 .btn-default:focus,
 .btn-default:hover,
@@ -110,7 +122,7 @@ section{
 	background: none;
 	color: #FB0006;
 	border: 1px solid #FB0006;
-	transition: all 0.4s;
+	transition: all 0.3s;
 }
 
 .btn-book {
@@ -130,9 +142,13 @@ section{
 
 }
 
-.home{
+#home{
     padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 120px;    
+    background: #ECE9E6; 
+    background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); 
+    background: linear-gradient(to left, #ECE9E6 , #FFFFFF); 
+        
 }
 
 .home-para{
@@ -167,6 +183,46 @@ section{
     line-height: 150%;
     font-family: 'Abel', sans-serif;
     font-size: 17px;
+}
+
+#tedxbvcoe{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: #ECE9E6; 
+    background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); 
+    background: linear-gradient(to left, #ECE9E6 , #FFFFFF);       
+}
+
+.bvcoe-head{
+    font-size: 50px;
+}
+
+.bvcoe-subhead{
+    padding-bottom: 50px;
+}
+
+.bvcoe-para{
+    line-height: 150%;
+    font-family: 'Abel', sans-serif;
+    font-size: 17px;
+}
+
+#speakers{
+     padding-top: 120px;
+    padding-bottom: 120px;
+    background: #f85032; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f85032 , #e73827); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #f85032 , #e73827); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.speak-mainhead{
+    font-size: 50px;
+    color: floralwhite;
+}
+
+.speak-head{
+    font-family: 'Damion', cursive;
+    color: floralwhite;
 }
 
 
