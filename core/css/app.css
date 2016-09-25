@@ -1,4 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat';
+@import 'https://fonts.googleapis.com/css?family=Abel';
+
 
 html,body {
 	font-family: 'Montserrat', sans-serif;
@@ -7,6 +9,9 @@ html,body {
 section{
 	padding: 20px 0;
 }
+
+
+/* navbar*/
 
 .navbar-c{
 	position: fixed;
@@ -80,6 +85,7 @@ section{
 	min-height: 600px;
 }
 
+<<<<<<< HEAD
 #header h1{
 	text-transform: uppercase;
 	font-size: 45px;
@@ -121,6 +127,47 @@ section{
 .gallery h1 {
 	font-size: 35px;
 	text-transform: uppercase;
+=======
+/* home*/
+
+#home{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.home-para{
+    font-family: 'Abel', sans-serif;
+    font-size: 17px;
+}
+
+/* about TEDx*/
+
+#about{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: #f85032; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f85032 , #e73827); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #f85032 , #e73827); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
+
+.about-head{
+    font-size: 50px;
+    color: floralwhite;
+}
+
+.about-subhead{
+    padding-bottom: 50px;
+    color: floralwhite;
+
+}
+
+.about-para{
+    color: floralwhite;
+    line-height: 150%;
+    font-family: 'Abel', sans-serif;
+    font-size: 17px;
+>>>>>>> 8b383c99d5d28ef9cd9bbd8ac9c4371801935033
 }
 
 
