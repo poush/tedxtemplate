@@ -1,6 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat';
 @import 'https://fonts.googleapis.com/css?family=Abel';
-@import 'https://fonts.googleapis.com/css?family=Damion';
+
 
 
 html,body {
@@ -9,9 +9,18 @@ html,body {
 
 section{
 	padding: 20px 0;
-	padding-top:80px;
+	padding-top:100px;
 }
 
+section h1 {
+	font-size: 40px;
+}
+
+section h4.text-center {
+	font-style: italic;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
 
 /* navbar*/
 
@@ -57,7 +66,7 @@ section{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
 	line-height: 50px;
-	text-transform: lowercase;
+	text-transform: uppercase;
 	font-size:14px;
 }
 
@@ -126,19 +135,17 @@ section{
     padding: 20px 35px 20px 35px;
 	font-weight: bolder;
     font-size: 15px;
-    position: relative;
-    top: 70px;
-    left: 550px;
 }
 .btn-default:focus,
 .btn-default:hover,
 .btn-default:active.btn-default:focus,
 .btn-default:active.btn-default:hover{
-	 /*background: #e10005;*/
-	background: none;
-	color: #FB0006;
-	border: 1px solid #FB0006;
+	 background: #e10005;
+	/*background: none;*/
+	color: #fff;
+	/*border: 1px solid #FB0006;*/
 	transition: all 0.3s;
+	outline:none;
 }
 
 .btn-book {
@@ -166,7 +173,6 @@ section{
 /* Home */
 
 .home{
-    padding-top: 120px;
     padding-bottom: 120px;    
     background: #ECE9E6; 
     background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); 
@@ -182,7 +188,6 @@ section{
 /* about TEDx*/
 
 #about{
-    padding-top: 120px;
     padding-bottom: 120px;
     background: #f85032; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #f85032 , #e73827); /* Chrome 10-25, Safari 5.1-6 */
@@ -208,68 +213,48 @@ section{
     font-size: 17px;
 }
 
-/* about TEDxBVCOE*/
 
 #tedxbvcoe{
     padding-top: 120px;
     padding-bottom: 120px;
-    background: #ECE9E6; 
-    background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); 
-    background: linear-gradient(to left, #ECE9E6 , #FFFFFF);       
+    background: #2f2d2d;
+    /*background: #ECE9E6; */
+    /*background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); */
+    /*background: linear-gradient(to left, #ECE9E6 , #FFFFFF);       */
 }
 
-.bvcoe-head{
-    font-size: 50px;
+#tedxbvcoe h1, #tedxbvcoe h4 {
+	color: #fff;
 }
 
-.bvcoe-subhead{
-    padding-bottom: 50px;
-}
-
-.bvcoe-para{
-    line-height: 150%;
+.content{
     font-family: 'Abel', sans-serif;
-    font-size: 17px;
+    font-size: 19px;
+    color:#fff;
 }
 
-/* Speaker*/
 
 #speakers{
-     padding-top: 120px;
     padding-bottom: 120px;
-    background: #f85032; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #f85032 , #e73827); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #f85032 , #e73827); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.speak-mainhead{
+/*.speak-mainhead{
     font-size: 50px;
     color: floralwhite;
-}
+}*/
 
 .speak-head{
-    font-family: 'Abel', sans-serif;
-    color: floralwhite;
-}
+    /*font-family: 'Abel', sans-serif;*/
+    /*color: floralwhite;*/
+    /*background: #f85032;  fallback for old browsers 
+    background: -webkit-linear-gradient(to left, #f85032 , #e73827); /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to left, #f85032 , #e73827);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-/* Sponsor*/
- 
-#sponsors{
-    padding-top: 120px;
-    padding-bottom: 120px;
-    background: #ECE9E6; 
-    background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); 
-    background: linear-gradient(to left, #ECE9E6 , #FFFFFF);  
-}
-
-.sponsor-mainhead{
-    font-size: 50px;
 }
 
 /* Team*/
 
 #team{
-    padding-top: 120px;
     padding-bottom: 120px;
     background: #f85032; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #f85032 , #e73827); /* Chrome 10-25, Safari 5.1-6 */
