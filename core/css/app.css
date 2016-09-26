@@ -1,6 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat';
 @import 'https://fonts.googleapis.com/css?family=Abel';
-@import 'https://fonts.googleapis.com/css?family=Damion';
+
 
 
 html,body {
@@ -66,7 +66,7 @@ section h4.text-center {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
 	line-height: 50px;
-	text-transform: lowercase;
+	text-transform: uppercase;
 	font-size:14px;
 }
 
@@ -135,9 +135,6 @@ section h4.text-center {
     padding: 20px 35px 20px 35px;
 	font-weight: bolder;
     font-size: 15px;
-    position: relative;
-    top: 70px;
-    left: 550px;
 }
 .btn-default:focus,
 .btn-default:hover,
@@ -223,41 +220,28 @@ section h4.text-center {
 #tedxbvcoe{
     padding-top: 120px;
     padding-bottom: 120px;
-    background: #ECE9E6; 
-    background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); 
-    background: linear-gradient(to left, #ECE9E6 , #FFFFFF);       
+    background: #2f2d2d;
+    /*background: #ECE9E6; */
+    /*background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); */
+    /*background: linear-gradient(to left, #ECE9E6 , #FFFFFF);       */
 }
 
-.bvcoe-head{
-    font-size: 50px;
+#tedxbvcoe h1, #tedxbvcoe h4 {
+	color: #fff;
 }
 
-.bvcoe-subhead{
-    padding-bottom: 50px;
-}
-
-.bvcoe-para{
-    line-height: 150%;
+.content{
     font-family: 'Abel', sans-serif;
-    font-size: 17px;
+    font-size: 19px;
+    color:#fff;
 }
 
 #speakers{
      padding-top: 120px;
     padding-bottom: 120px;
-    background: #f85032; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #f85032 , #e73827); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #f85032 , #e73827); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.speak-mainhead{
-    font-size: 50px;
-    color: floralwhite;
-}
-
-.speak-head{
-    font-family: 'Damion', cursive;
-    color: floralwhite;
+    /*background: #f85032;  fallback for old browsers */
+    /*background: -webkit-linear-gradient(to left, #f85032 , #e73827); /* Chrome 10-25, Safari 5.1-6 */*/
+    /*background: linear-gradient(to left, #f85032 , #e73827);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 
