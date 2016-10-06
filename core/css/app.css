@@ -236,19 +236,18 @@ section h4.text-center {
 
 #speakers{
     padding-bottom: 120px;
+    background: #ECE9E6; 
+    background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); 
+    background: linear-gradient(to left, #ECE9E6 , #FFFFFF); 
+        
 }
 
-/*.speak-mainhead{
+.speak-mainhead{
     font-size: 50px;
-    color: floralwhite;
-}*/
+}
 
 .speak-head{
-    /*font-family: 'Abel', sans-serif;*/
-    /*color: floralwhite;*/
-    /*background: #f85032;  fallback for old browsers 
-    background: -webkit-linear-gradient(to left, #f85032 , #e73827); /* Chrome 10-25, Safari 5.1-6 */
-    /*background: linear-gradient(to left, #f85032 , #e73827);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Abel', sans-serif;
 
 }
 
