@@ -227,6 +227,10 @@ section h4.text-center {
 	color: #fff;
 }
 
+.theme{
+    padding-top: 50px;
+}
+
 .content{
     font-family: 'Abel', sans-serif;
     font-size: 19px;
