@@ -1,0 +1,28 @@
+{
+  "items" : [
+    {
+      "img": "images/general/devesh.jpg",
+      "alt" : "Owl Image 1",
+      "name" : "Devesh Gupta",
+      "position" : "Curator"
+    },
+    {
+      "img": "images/general/devesh.jpg",
+      "alt" : "Owl Image 1",
+      "name" : "Devesh Gupta",
+      "position" : "Curator"
+    },
+    {
+      "img": "images/general/devesh.jpg",
+      "alt" : "Owl Image 1",
+      "name" : "Devesh Gupta",
+      "position" : "Curator"
+    },
+    {
+      "img": "images/general/devesh.jpg",
+      "alt" : "Owl Image 1",
+      "name" : "Devesh Gupta",
+      "position" : "Curator"
+    }
+  ]
+}
