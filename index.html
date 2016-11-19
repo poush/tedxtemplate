@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="core/css/app.css">
     <link rel="stylesheet" href="app/css/app.css">
-    <link href="bootstrap.css" rel="stylesheet" media="screen">
 
 </head>
 
@@ -32,12 +31,14 @@
                 </a>
             </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <a class="btn btn-default navbar-right nav-btn" href="http://www.ted.com/tedx/events/20691"> TEDxBVCOE </a>
             <ul class="nav navbar-nav navbar-right">
                     <li><a href="#home">Home </a></li>
                     <li><a href="#about">About TEDx </a></li>
                     <li><a href="#tedxbvcoe">About TEDxBVCOE </a></li>
                     <li><a href="#speakers">Speakers </a></li>
                     <li><a href="#team">Team </a></li>
+
             </ul>
         </div>
         </div>
@@ -107,16 +108,17 @@
                         <h4 class="text-center">About the institution</h4>
                         <p class="content">Visionary, Perpetually striving for Excellence, that's how Bharati Vidyapeeth's College of Engineering can be defined. A leader among it's peers, it's among the finest colleges of Indraprastha University.</p>
                         <h4 class="text-center theme">"HORIZON", our theme</h4>                  
-                        <p class="content">Human Brain is like the Earth, composed, grounded and pragmatic, and our hearts- vast and free flowing like the sky. We let these two components meet to create a HORIZON. This is where ideas originating from our brain and feelings from our hearts appear to meet and revolutionise the sense of existence.
+                        <p class="content">
+                            Human Brain is like the Earth, composed, grounded and pragmatic, and our hearts- vast and free flowing like the sky. We let these two components meet to create a HORIZON. This is where ideas originating from our brain and feelings from our hearts appear to meet and revolutionise the sense of existence.
 
-We, at TEDxBVCOE, intend to suffuse these ideas to each and every cell that builds you, instil your blood with power of innovation so that one can be the change one wants to instigate in the society.
-We welcome each and every one who would like to be a part of advanced, original and unorthodox talks by the prominent speakers, talks that would surely turn out to trigger the contact between your brain and heart.</p>
+                            We, at TEDxBVCOE, intend to suffuse these ideas to each and every cell that builds you, instil your blood with power of innovation so that one can be the change one wants to instigate in the society.
+                            We welcome each and every one who would like to be a part of advanced, original and unorthodox talks by the prominent speakers, talks that would surely turn out to trigger the contact between your brain and heart.
+                        </p>
                     </div>
              </div>
         </div>
     </section>
     
-
     <!-- Speakers -->
     <section id="speakers">
         <div class="container">
@@ -138,27 +140,20 @@ We welcome each and every one who would like to be a part of advanced, original 
             <h1 class="text-center" style="color:#fff">Our Team</h1>
             <h4 class="text-center" style="color:#fff">Meet the Do-er's</h4>
             <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="images/general/devesh.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4 style="color: floralwhite">Devesh Gupta</h4>
-                                    <h4 style="color: floralwhite">Organiser</h4>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>More
-                                    <br>Coming
-                                    <br>Soon!</h4>
-                            </div>
-                        </li>
-                        </ul>
+                <div class="col-sm-12">
+                    <div class="col-sm-4">
+                        <img class="img-circle img-thumbnail center-block img-responsive" src="https://randomuser.me/api/portraits/men/83.jpg" alt="Someone">
+                        <p class="lead text-center utitle"> Someone <br/><small>Organizer</small> </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img class="img-circle img-thumbnail center-block img-responsive" src="https://randomuser.me/api/portraits/men/85.jpg" alt="Someone">
+                        <p class="lead text-center utitle"> Piyush <br/><small>Curation</small> </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img class="img-circle img-thumbnail center-block img-responsive" src="https://randomuser.me/api/portraits/men/86.jpg" alt="Someone">
+                        <p class="lead text-center utitle"> Archit <br/><small>Curation</small> </p>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -186,6 +181,7 @@ We welcome each and every one who would like to be a part of advanced, original 
         </div>
     </section>
 
+
     <!-- JS -->
     <script src="./bower_components/jquery/dist/jquery.min.js"></script>
     <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -193,6 +189,7 @@ We welcome each and every one who would like to be a part of advanced, original 
     <script src="./bower_components/vue-resource/dist/vue-resource.js"></script>
     <script src="core/js/app.js"></script>
     <script src="app/js/app.js"></script>
+    <script src="core/js/sly.min.js"></script>
     <script async src='https://pepper.swat.io/embed.js?eyJwb3NpdGlvbiI6InJpZ2h0IiwiY29sb3IiOiIxMTExMTEiLCJjdXN0b21Db2xvciI6ZmFsc2UsImljb24iOiJwYWNtYW4iLCJwcm9ub3VuIjoibWUiLCJsYW5ndWFnZSI6ImVuIiwiYnJhbmRlZCI6dHJ1ZSwiaW50cm9UZXh0IjpudWxsLCJjaGFubmVscyI6W1siZmFjZWJvb2siLCJtZXBpeXVzaDk3Iiwic29jaWFsIl0sWyJ0d2l0dGVyIiwibWVwb3VzaCIsInNvY2lhbCJdLFsiZ2l0aHViIiwiaGl0cDovL2dpdGh1Yi5jb20vcG91c2gvdGVkeHRlbXBsYXRlIiwic29jaWFsIl0sWyJza3lwZSIsIm1lcGl5dXNoMTMiLCJzb2NpYWwiXSxbImxpbmtlZGluIiwiaHR0cHM6Ly9saW5rZWRpbi5jb20vaW4vcG91c2giLCJzb2NpYWwiXSxbImVtYWlsIiwibWVAaXBpeXVzaC5jb20iLCJjbGFzc2ljIl1dfQ=='></script>
 </body>
 

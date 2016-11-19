@@ -98,9 +98,11 @@ section h4.text-center {
 } */
 
 .nav-container{
-	width: 100%;
+	width: 95%;
 	margin: auto auto;
 }
+
+
 
 #header{
 	background-image: url('../../images/general/head.jpg');
@@ -146,6 +148,11 @@ section h4.text-center {
 	/*border: 1px solid #FB0006;*/
 	transition: all 0.3s;
 	outline:none;
+}
+
+.nav-btn{
+  margin-top:20px;
+  padding: 7px 10px;
 }
 
 .btn-book {
@@ -442,6 +449,13 @@ section h4.text-center {
   }
 }
 
+.utitle{
+  color: #fff;
+}
+
+.utitle > small {
+  font-size: 1.3rem;
+}
 /* Footer */
 
 #footer{
