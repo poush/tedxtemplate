@@ -478,9 +478,55 @@ section h4.text-center {
 
 a.share-link{
 	color:white;
+  font-size: 19px;
+  margin-right: 2px;
 }
 
 a.share-link:hover{
 	color:#fff;
 	text-decoration: underline;
+}
+
+a.member-link{
+  color:white;
+  font-size: 16px;
+  margin-right: 2px;
+}
+
+a.member-link:hover{
+  color:#fff;
+  text-decoration: underline;
+}
+
+.imgwrap {
+  position: relative;
+}
+
+.imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+  width: 180px;
+  margin: auto auto;
+  border: 5px solid transparent;
+  background: rgba(23, 21, 21, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  padding-top: 50px;
+}
+
+
+.imgwrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+
+a{
+  cursor: pointer;
 }
