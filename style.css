@@ -96,7 +96,7 @@ h2.title {
 	color:#747474;
 }
 .list li a {
-	text-decoration: none;	
+	text-decoration: none;
 }
 
 .panel {
@@ -106,7 +106,7 @@ h2.title {
 
 
 .checkin{
-	margin-top: 15px;	
+	margin-top: 15px;
 	border: 1px solid #dfdfdf;
 }
 .checkin h3{
@@ -196,7 +196,7 @@ a.sp{
 	width: 100%;
 	text-align: left;
 	padding: 4px 7px;
-	background-color: 
+	background-color:
 	color:#000;
 	border:none;
 	height: 20px;
@@ -228,7 +228,7 @@ a.sp{
 	width: 70%;
 	height: 25px;
 }
-.form-group input:focus{	
+.form-group input:focus{
 	outline: none;
 	border: 1px solid black;
 }
@@ -265,7 +265,7 @@ a.sp{
 	.col-15 .panel{
 		float:right;
 	}
-	.ads{ 
+	.ads{
 		display: none;
 	}
 	.hidden-xs{
@@ -279,7 +279,3 @@ a.sp{
 ::selection{
 	background-color:gold;
 }
-
-
-
-
