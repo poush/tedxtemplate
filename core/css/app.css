@@ -262,6 +262,12 @@ section h4.text-center {
 
 }
 
+.stitle{
+  color: #141414;
+}
+
+
+
 /* Team*/
 
 #team{
@@ -450,7 +456,7 @@ section h4.text-center {
 }
 
 .utitle{
-  color: #141414;
+  color: #fff;
 }
 
 .utitle > small {
