@@ -262,6 +262,12 @@ section h4.text-center {
 
 }
 
+.stitle{
+  color: #141414;
+}
+
+
+
 /* Team*/
 
 #team{
@@ -472,6 +478,36 @@ section h4.text-center {
     padding-right: 10px;
 }
 
+
+.imagewrap {
+  position: relative;
+}
+
+.imageDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+  width: 390px;
+  margin: auto auto;
+  border: 72px solid transparent;
+  background: rgba(23, 21, 21, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  padding-top: 50px;
+}
+
+
+.imagewrap:hover .imageDescription {
+  visibility: visible;
+  opacity: 1;
+}
+
 .heads .col-sm-12 {
 	margin-top: 20px;
 }
@@ -526,6 +562,7 @@ a.member-link:hover{
   visibility: visible;
   opacity: 1;
 }
+
 
 a{
   cursor: pointer;
