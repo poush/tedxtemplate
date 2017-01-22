@@ -113,6 +113,20 @@ section h4.text-center {
 	min-height: 800px;
 }
 
+.header_team{
+  background-image: url('../../images/general/team.png');
+  background-size: cover;
+  height: 500px !important;
+  padding-top: 150px !important;
+}
+.header_team h1{
+  text-transform: uppercase;
+  font-size: 45px;
+}
+
+.header_team h1, .header_team h2 {
+  color:#fff;
+}
 
 #header h1{
 	text-transform: uppercase;
@@ -261,6 +275,12 @@ section h4.text-center {
     font-family: 'Abel', sans-serif;
 
 }
+
+.stitle{
+  color: #141414;
+}
+
+
 
 /* Team*/
 
@@ -472,6 +492,36 @@ section h4.text-center {
     padding-right: 10px;
 }
 
+
+.imagewrap {
+  position: relative;
+}
+
+.imageDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+  width: 390px;
+  margin: auto auto;
+  border: 72px solid transparent;
+  background: rgba(23, 21, 21, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  padding-top: 50px;
+}
+
+
+.imagewrap:hover .imageDescription {
+  visibility: visible;
+  opacity: 1;
+}
+
 .heads .col-sm-12 {
 	margin-top: 20px;
 }
@@ -527,6 +577,38 @@ a.member-link:hover{
   opacity: 1;
 }
 
+
 a{
   cursor: pointer;
+}
+
+#team-section{
+    padding-bottom: 120px;
+    background: #ECE9E6;
+    background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF);
+    background: linear-gradient(to left, #ECE9E6 , #FFFFFF);
+}
+.team-name{
+
+}
+.team-heads{
+	text-align: center;
+}
+.team-heads img{
+	width: 260px;
+}
+.team-member{
+	display: inline-block;
+}
+.team-member img{
+ width: 260px;
+}
+.team-member{
+	text-align: center;
+}
+.social-links a{
+	color: #777;
+}
+.social-links a:hover{
+	color: #333;
 }
