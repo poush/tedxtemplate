@@ -113,6 +113,20 @@ section h4.text-center {
 	min-height: 800px;
 }
 
+.header_team{
+  background-image: url('../../images/general/team.png');
+  background-size: cover;
+  height: 500px !important;
+  padding-top: 150px !important;
+}
+.header_team h1{
+  text-transform: uppercase;
+  font-size: 45px;
+}
+
+.header_team h1, .header_team h2 {
+  color:#fff;
+}
 
 #header h1{
 	text-transform: uppercase;
@@ -490,7 +504,7 @@ section h4.text-center {
   left: 0;
   right: 0;
   border-radius: 50%;
-  width: 390px;
+  max-width: 390px;
   margin: auto auto;
   border: 72px solid transparent;
   background: rgba(23, 21, 21, 0.72);
@@ -566,4 +580,35 @@ a.member-link:hover{
 
 a{
   cursor: pointer;
+}
+
+#team-section{
+    padding-bottom: 120px;
+    background: #ECE9E6;
+    background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF);
+    background: linear-gradient(to left, #ECE9E6 , #FFFFFF);
+}
+.team-name{
+
+}
+.team-heads{
+	text-align: center;
+}
+.team-heads img{
+	width: 260px;
+}
+.team-member{
+	display: inline-block;
+}
+.team-member img{
+ width: 260px;
+}
+.team-member{
+	text-align: center;
+}
+.social-links a{
+	color: #777;
+}
+.social-links a:hover{
+	color: #333;
 }
