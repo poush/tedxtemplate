@@ -589,19 +589,14 @@ a{
     background: linear-gradient(to left, #ECE9E6 , #FFFFFF);
 }
 .team-name{
+}
 
-}
-.team-heads{
-	text-align: center;
-}
 .team-member{
 	display: inline-block;
+	text-align: center;
 }
 .team-member img{
  width: 260px;
-}
-.team-member{
-	text-align: center;
 }
 .social-links a{
 	color: #777;
