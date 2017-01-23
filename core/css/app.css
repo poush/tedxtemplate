@@ -504,7 +504,7 @@ section h4.text-center {
   left: 0;
   right: 0;
   border-radius: 50%;
-  width: 390px;
+  max-width: 390px;
   margin: auto auto;
   border: 72px solid transparent;
   background: rgba(23, 21, 21, 0.72);
