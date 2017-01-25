@@ -504,7 +504,7 @@ section h4.text-center {
   left: 0;
   right: 0;
   border-radius: 50%;
-  width: 390px;
+  max-width: 390px;
   margin: auto auto;
   border: 72px solid transparent;
   background: rgba(23, 21, 21, 0.72);
@@ -589,22 +589,14 @@ a{
     background: linear-gradient(to left, #ECE9E6 , #FFFFFF);
 }
 .team-name{
+}
 
-}
-.team-heads{
-	text-align: center;
-}
-.team-heads img{
-	width: 260px;
-}
 .team-member{
 	display: inline-block;
+	text-align: center;
 }
 .team-member img{
  width: 260px;
-}
-.team-member{
-	text-align: center;
 }
 .social-links a{
 	color: #777;
