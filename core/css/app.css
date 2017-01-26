@@ -589,7 +589,7 @@ a{
   background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF);
   background: linear-gradient(to left, #ECE9E6 , #FFFFFF);
 }
-#team-section .row {
+#team-section .col-md-12 {
 	margin-bottom: 25px;
 }
 .team-name{
