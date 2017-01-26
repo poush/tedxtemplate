@@ -281,7 +281,14 @@ section h4.text-center {
 }
 
 
+#tickets{
+	background: #ECE9E6;
+	background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF);
+	background: linear-gradient(to left, #ECE9E6 , #FFFFFF);
 
+	height: 100%;
+	width : 100%;
+}
 /* Team*/
 
 #team{
