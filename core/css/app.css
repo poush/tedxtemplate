@@ -581,34 +581,3 @@ a.member-link:hover{
 a{
   cursor: pointer;
 }
-
-#team-section{
-    padding-bottom: 120px;
-    background: #ECE9E6;
-    background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF);
-    background: linear-gradient(to left, #ECE9E6 , #FFFFFF);
-}
-.team-name{
-
-}
-.team-heads{
-	text-align: center;
-}
-.team-heads img{
-	width: 260px;
-}
-.team-member{
-	display: inline-block;
-}
-.team-member img{
- width: 260px;
-}
-.team-member{
-	text-align: center;
-}
-.social-links a{
-	color: #777;
-}
-.social-links a:hover{
-	color: #333;
-}
