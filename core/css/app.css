@@ -616,3 +616,7 @@ a{
 .social-links a:hover{
 	color: #333;
 }
+
+#venue{
+	padding: 0;
+}
