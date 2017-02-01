@@ -619,6 +619,15 @@ a{
 	color: #333;
 }
 
+.speaker-image{
+	width: 250px;
+}
+
 #venue{
 	padding: 0;
+	background: url("../../images/general/bvp-2.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+	height: 650px !important;
 }
