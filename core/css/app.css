@@ -608,7 +608,9 @@ a{
 	text-align: center;
 }
 .team-member img{
- width: 260px;
+	height: 220px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .social-links a{
 	color: #777;
