@@ -168,9 +168,10 @@ section h4.text-center {
   margin-top:20px;
   padding: 7px 10px;
 }
-
-.btn-book {
-
+@media( max-width: 468px ) {
+  .btn-book {
+    margin-top: 20px;
+  }
 }
 
 
@@ -620,14 +621,22 @@ a{
 }
 
 .speaker-image{
-	width: 250px;
+	width: 70%;
+}
+
+@media( max-width: 468px ){
+  .speaker-image{
+    width: 80%;
+  }
 }
 
 #venue{
 	padding: 0;
-	background: url("../../images/general/bvp-2.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-	height: 650px !important;
+	/*background: url("../../images/general/bvp-2.jpg");*/
+  /*background-size: cover;*/
+  /*background-position: center center;*/
+  /*background-attachment: fixed;*/
+	/*height: 650px !important;*/
+  padding: 10px 5%;
+  background: #161616;
 }
