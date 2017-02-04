@@ -612,6 +612,7 @@ a{
 	margin-right: auto;
 }
 .social-links a{
+	display: none;
 	color: #777;
 }
 .social-links a:hover{
