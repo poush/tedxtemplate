@@ -566,8 +566,6 @@ a.member-link:hover{
   bottom: 0;
   left: 0;
   right: 0;
-  border-radius: 50%;
-  max-width: 180px;
   margin: auto auto;
   border: 5px solid transparent;
   background: rgba(23, 21, 21, 0.72);
@@ -576,7 +574,7 @@ a.member-link:hover{
   opacity: 0;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 
@@ -621,7 +619,7 @@ a{
 }
 
 .speaker-image{
-	width: 70%;
+	width: 100%;
 }
 
 @media( max-width: 468px ){
@@ -639,4 +637,33 @@ a{
 	/*height: 650px !important;*/
   padding: 10px 5%;
   background: #161616;
+}
+
+.team_section .col-sm-3{
+    padding: 0;
+}
+.s-para{
+    font-family: 'Abel', sans-serif;
+    text-align: left;
+    font-size: 17px;
+}
+.seemore{
+  width: 100%;
+  height: 285px;
+  background: #f4f4f4;
+  padding-top: 140px;
+  padding-left: 10%;
+  font-size: 23px;
+}
+
+.seemore:hover .seemorewrap{
+  position: absolute;
+  top:0;
+  left: 0;
+  transition: all 0.2s;
+  cursor: pointer;
+  width: 100%;
+  height: 286px;
+  background: rgba(23, 21, 21, 0.72);
+
 }
