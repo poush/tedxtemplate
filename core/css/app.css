@@ -566,6 +566,7 @@ a.member-link:hover{
   bottom: 0;
   left: 0;
   right: 0;
+	border-radius: 50%;
   margin: auto auto;
   border: 5px solid transparent;
   background: rgba(23, 21, 21, 0.72);
@@ -676,3 +677,14 @@ a{
 .ticketing{
   margin-top: 25px;
 }
+
+#col-cus{
+	width: 100%;
+}
+@media( min-width: 468px){
+		.col-cus{
+			width: 20%;
+			float: left;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
