@@ -110,7 +110,7 @@ section h4.text-center {
 	background-repeat: no-repeat;
 	background-position: center;
 	padding: 240px 0 180px;
-	min-height: 800px;
+	min-height: 100vh;
 }
 
 .header_team{
@@ -612,7 +612,7 @@ a{
 	margin-right: auto;
 }
 .social-links a{
-	visibility: hidden;
+	display: none;
 	color: #777;
 }
 .social-links a:hover{
@@ -742,12 +742,10 @@ a{
 	  }
 	}
 
-	.carousel-caption {
-	  text-shadow: 0 1px 4px rgba(0, 0, 0, .9);
-	  font-size: 17px
-	}
+#sponsors p.home-para{
+  font-size: 22px;
+}
 
-	.carousel-caption h3 {
-	  font-size: 30px;
-	  font-family: 'Lato', sans-serif;
-	}
+.ticketing{
+  margin-top: 25px;
+}

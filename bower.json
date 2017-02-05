@@ -19,6 +19,6 @@
     "vue": "^1.0.27",
     "vue-resource": "^1.0.3",
     "font-awesome": "^4.6.3",
-    "owl.carousel": "^2.2.0"
+    "flipclock": "^0.7.7"
   }
 }

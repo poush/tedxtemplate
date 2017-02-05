@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="core/css/app.css">
     <link rel="stylesheet" href="app/css/app.css">
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/flipclock/compiled/flipclock.css">
 </head>
 
 <body>
@@ -39,7 +40,10 @@
     <section id="header">
         <div class="container">
             <h1 class="text-center"> "Ideas Worth Spreading" </h1>
-            <div class="col-sm-12">
+          <!--   <div class="col-sm-6 col-sm-offset-3">
+                <div class="clock"></div>
+            </div> -->
+            <div class="col-sm-12" style="margin-top: 20px;">
                 <div class="center-block text-center">
                     <a class="btn btn-default" href="#home"> TELL ME MORE </a>
                     <a class="btn btn-default btn-book" href="http://tickets.tedxbvcoe.org/"><i class="fa fa-ticket"></i> Book Now </a>
@@ -373,7 +377,7 @@
                     </div>
                     <div class="col-sm-3">
                         <div class="seemore"> Meet rest of us
-                            <div class="seemorewrap"></div>
+                            <div class="seemorewrap" onclick="meetus()"></div>
                         </div>
                     </div>
 
@@ -463,6 +467,43 @@
             </div>
         </div>
     </section>
+    <section id="sponsors">
+        <div class="container">
+        <h1 class="text-center"> Sponsors </h1>
+        <br/>
+        <div class="col-sm-12 ticketing">
+            <div class="col-sm-6">
+                <img src="images/general/sponsors/lava.jpg" width="100%">
+                <p class="text-center home-para"> Associate Sponsor </p>
+            </div>
+            <div class="col-sm-6">
+                <img src="images/general/sponsors/busy.jpg" width="100%">
+                <p class="text-center home-para"> International Sponsor </p>
+            </div>
+        </div>
+        <div class="col-sm-12 ticketing">
+            <h2 class="lead"> Supporting Sponsor </h2>
+            <div class="col-sm-4">
+                <img src="images/general/sponsors/trend.png" width="100%">
+            </div>
+        </div>
+        <div class="col-sm-12 ticketing">
+            <h2 class="lead"> Internship Sponsor </h2>
+            <div class="col-sm-4">
+                <img src="images/general/sponsors/twenty19.jpg" width="100%">
+            </div>
+        </div>
+        <div class="col-sm-12 ticketing">
+            <h2 class="lead"> Ticketing Partners </h2>
+            <div class="col-sm-3">
+                <img src="images/general/sponsors/explara.jpg" width="100%">
+            </div>
+            <div class="col-sm-3">
+                <img src="images/general/sponsors/partiko.png" width="100%">
+            </div>
+        </div>
+        </div>
+    </section>
     <!-- Venue -->
     <section id="venue">
         <div class="">
@@ -499,6 +540,27 @@
     <script src="app/js/app.js"></script>
     <script src="core/js/sly.min.js"></script>
     <script async src='https://pepper.swat.io/embed.js?eyJwb3NpdGlvbiI6InJpZ2h0IiwiY29sb3IiOiIxMTExMTEiLCJjdXN0b21Db2xvciI6ZmFsc2UsImljb24iOiJwYWNtYW4iLCJwcm9ub3VuIjoibWUiLCJsYW5ndWFnZSI6ImVuIiwiYnJhbmRlZCI6dHJ1ZSwiaW50cm9UZXh0IjpudWxsLCJjaGFubmVscyI6W1siZmFjZWJvb2siLCJtZXBpeXVzaDk3Iiwic29jaWFsIl0sWyJ0d2l0dGVyIiwibWVwb3VzaCIsInNvY2lhbCJdLFsiZ2l0aHViIiwiaGl0cDovL2dpdGh1Yi5jb20vcG91c2gvdGVkeHRlbXBsYXRlIiwic29jaWFsIl0sWyJza3lwZSIsIm1lcGl5dXNoMTMiLCJzb2NpYWwiXSxbImxpbmtlZGluIiwiaHR0cHM6Ly9saW5rZWRpbi5jb20vaW4vcG91c2giLCJzb2NpYWwiXSxbImVtYWlsIiwibWVAaXBpeXVzaC5jb20iLCJjbGFzc2ljIl1dfQ=='></script>
+    <!-- <script type="text/javascript" src="./bower_components/flipclock/compiled/flipclock.min.js"></script> -->
+    <script type="text/javascript">
+        function meetus(){
+            location = "team.html"
+        }
+
+        // var date = new Date(2017, 1, 15, 10,0,0,0);
+        // var now = new Date();
+
+        // var diff = (date.getTime()/1000) - (now.getTime()/1000);
+
+        // var clock = $('.clock').FlipClock({
+        //     auroStart: false,
+        //     clockFace: 'DailyCounter',
+        //     countdown: true,
+        //     showSeconds: false
+        // });
+
+        // clock.setTime(diff);
+        // clock.start();
+    </script>
 </body>
 
 </html>
