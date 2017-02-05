@@ -110,7 +110,7 @@ section h4.text-center {
 	background-repeat: no-repeat;
 	background-position: center;
 	padding: 240px 0 180px;
-	min-height: 800px;
+	min-height: 100vh;
 }
 
 .header_team{
@@ -667,4 +667,12 @@ a{
   height: 286px;
   background: rgba(23, 21, 21, 0.72);
 
+}
+
+#sponsors p.home-para{
+  font-size: 22px;
+}
+
+.ticketing{
+  margin-top: 25px;
 }
