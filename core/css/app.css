@@ -164,6 +164,26 @@ section h4.text-center {
 	outline:none;
 }
 
+.btn-black {
+  background: #000;
+  color: #fff;
+  border:none;
+  border-radius: 2px;
+    padding: 20px 35px 20px 35px;
+  font-weight: bolder;
+    font-size: 15px;
+}
+.btn-black:focus,
+.btn-black:hover,
+.btn-black:active.btn-black:focus,
+.btn-black:active.btn-black:hover{
+   background: #141414;
+  /*background: none;*/
+  color: #fff;
+  /*border: 1px solid #FB0006;*/
+  transition: all 0.3s;
+  }
+
 .nav-btn{
   margin-top:20px;
   padding: 7px 10px;
@@ -569,6 +589,7 @@ a.member-link:hover{
   left: 0;
   right: 0;
 	border-radius: 50%;
+  max-width: 150px;
   margin: auto auto;
   border: 5px solid transparent;
   background: rgba(23, 21, 21, 0.72);
@@ -577,7 +598,7 @@ a.member-link:hover{
   opacity: 0;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 
@@ -643,9 +664,6 @@ a{
   background: #161616;
 }
 
-.team_section .col-sm-3{
-    padding: 0;
-}
 .s-para{
     font-family: 'Abel', sans-serif;
     text-align: left;
@@ -764,3 +782,8 @@ a{
 			padding-left: 10px;
 			padding-right: 10px;
 		}
+}
+
+#team img {
+  max-width: 150px;
+}
