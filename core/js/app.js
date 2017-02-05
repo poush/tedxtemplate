@@ -14,7 +14,8 @@ $(window).scroll(function(){
 	else
 		$('nav').removeClass('shrink');
 
-})
+});
+$("#performances-carousel").carousel();
 
 $("a[href^='#']").on('click', function(e){
 
@@ -28,7 +29,7 @@ $("a[href^='#']").on('click', function(e){
 		window.location.hash = hash;
 	})
 
-})
+});
 
 $(document).on('click','.navbar-collapse.in',function(e) {
     if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
