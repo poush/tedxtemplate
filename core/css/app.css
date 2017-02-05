@@ -487,6 +487,8 @@ section h4.text-center {
 /* Footer */
 
 #footer{
+    background: #141414;
+    color: white;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -682,7 +684,8 @@ a{
 	background-color: #333333;
 }
 #performers .item:nth-child(2){
-	background-color: #F6F6F6;
+	background-color: rgba(11,10,4,1);
+  /*background: #000;*/
 }
 #performers .item:nth-child(3){
 	background-color: #270001;
